@@ -7,6 +7,7 @@ function Content() {
         
     // <><ProfitGrid />
     <ControlDashboard />
+    
     // </>
     )
 }
