@@ -36,10 +36,12 @@ const ControlDashboard = () => {
         </ul>
       </div>
       <div>
-        <button onClick={openModal}>Abrir Modal</button>
+        <button onClick={openModal}>Atualizar Gasto</button>
         <Modal isOpen={isModalOpen} onClose={closeModal}>
-          <h2>Título do Modal</h2>
-          <p>Conteúdo do Modal</p>
+          <div>
+        <h2>Em quanto está a fatura do Cartão?</h2>
+        <input type="number" />
+         </div>
         </Modal>
       </div>
     </>

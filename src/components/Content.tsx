@@ -1,13 +1,14 @@
 import ProfitGrid from "./IncomeGrid";
 import ControlDashboard from "./ControlDashboard";
+import ExpenseGrid from "./ExpenseGrid";
 
 function Content() {
     return (
 
-        
-    // <><ProfitGrid />
-    <ControlDashboard />
     
+    // <><ProfitGrid />
+    // <ControlDashboard />
+     <ExpenseGrid />
     // </>
     )
 }
